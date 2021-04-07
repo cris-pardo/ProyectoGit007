@@ -1,7 +1,7 @@
-/* el a es para la pagina Color o otra cosa*/
 
 
-#b
+
+#container-ofertas
 {
   
   margin: auto;
@@ -12,8 +12,9 @@
   
 
 }
-/* control de tamño e donde esta palabra */
-.c
+
+
+.letras-ofertas
 {
   font-family: cursive;
   font-size: 25px;
@@ -22,8 +23,8 @@
 }
 
 
-/* control de imagenes de cartas*/
-.a{
+
+.imagenes-tarjetas{
   height: 220px;
   width: 150px;
   text-align: center;
@@ -43,7 +44,7 @@ footer {
 }
 
 
-#logo
+#logo-footer
 {
   width: 70px;
   height: 70px;
