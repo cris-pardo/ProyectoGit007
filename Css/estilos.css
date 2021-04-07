@@ -1,19 +1,52 @@
 /* el a es para la pagina Color o otra cosa*/
 
-.a{
-  height: 50px;
-  width: 50px;
+
+#b
+{
+  
+  margin: auto;
+  height: 30px;
+  border-style:solid ;
+  padding : 30px;
+  font-size: 15px;
+  
+
+}
+/* control de tamño e donde esta palabra */
+.c
+{
+  font-family: cursive;
+  font-size: 25px;
+  text-align: center;
+  padding: 2px 19px;
 }
 
-/* */
+
+/* control de imagenes de cartas*/
+.a{
+  height: 220px;
+  width: 150px;
+  text-align: center;
+}
+
+/*footer */
 
 footer {
 
   
   padding: 3px;
   background-color: #000;
-  color: white;
+  color: #fff;
+  color: bl;
 
 
 }
+
+
+#logo
+{
+  width: 70px;
+  height: 70px;
+}
+
 
