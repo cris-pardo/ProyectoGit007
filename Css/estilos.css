@@ -1,3 +1,4 @@
+/* iconos*/
 .imagenes-iconos
 {
   border-color: #ffff;
@@ -6,7 +7,9 @@
 }
 
 
+/*-------------*/
 
+/* tarjetas ofertas*/
 #container-ofertas
 {
   
@@ -15,11 +18,13 @@
   border-style:solid ;
   padding : 30px;
   font-size: 15px;
-  
 
 }
 
+/*-----------------*/
 
+
+/*ofertas*/
 .letras-ofertas
 {
   font-family: cursive;
@@ -28,15 +33,23 @@
   padding: 2px 19px;
 }
 
+/*----------------------*/
 
 
+
+
+
+/* tarjetas */
 .imagenes-tarjetas{
   height: 220px;
   width: 150px;
   text-align: center;
 }
 
-/*footer */
+/*------------------------------*/
+
+
+/*footer --------------------------------------*/
 
 footer {
 
@@ -55,16 +68,70 @@ footer {
   width: 70px;
   height: 70px;
 }
+/*  ************************************************   */
+
+
+
+
+
+/* cabeza hero image*/
+
+.banner
+{
+  background: url(../img/carroucel2.3.jpg) fixed center/cover;
+  height: 700px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner::before
+{
+  content: "";
+  height: 100%;
+  width: 5000%;
+  background:#dd8a2b;
+  opacity: 0.8;
+}
+
+.banner__info
+{
+  padding: 0.3em;
+  position: absolute;
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+  color:#000;
+  margin: auto;
+
+}
+
+.banner_tittle
+{
+  line-height: 1.5;
+  font-size: 2em;
+  font-family: cursive;
+
+}
+
+.banner__p
+{
+  line-height: 2;
+  font-size: 0.9em;
+  font-family: cursive;
+
+}
+
+
+
+/* ---------------------------------*/
 
 
 
 
 /*seccion , datos modificados*/
 
-section
-{
-  height: 650px;
-}
+
 
 
 .palabras-seccion
@@ -76,6 +143,8 @@ section
 
 .parrafo-seccion
 {
+  text-align: justify;
+
   font-weight: 300;
   margin-bottom: 15px;
 }
@@ -106,22 +175,24 @@ section
   text-align: center;
   
 }
+
+
 /*para darle color a algo especifico*/
 
-section:nth-child(2)
+.section-1
 {
   background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
-section:nth-child(3)
+.section-2
 {
   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);;
 }
-section:nth-child(4)
+.section-3
 {
   background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);;
 }
 
-section:nth-child(5)
+.section-4
 {
   background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
  background-blend-mode: multiply,multiply;
