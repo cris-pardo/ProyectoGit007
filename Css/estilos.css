@@ -201,17 +201,21 @@ section
 /* ----------------------------*/
 
 /*Galeria ofertas*/
-#container-Galeria
+#container-ofertas
 {
+  
   margin: auto;
   height: 30px;
   border-style:solid ;
   padding : 30px;
   font-size: 15px;
+
 }
+
 /*-----------------*/
 
-/*Ofertas*/
+
+/*ofertas*/
 .letras-ofertas
 {
   font-family: cursive;
@@ -219,13 +223,17 @@ section
   text-align: center;
   padding: 2px 19px;
 }
-/*-----------------------------------*/
 
-/*Galeria*/
-.imagenes-Galeria
-{
-  height: 200px;
+/*----------------------*/
+
+
+
+
+
+/* Galeria */
+.imagenes-Galeria{
+  height: 300px;
   width: 350px;
   text-align: center;
 }
-/*------------------------------*/
+/*---------------------*/
