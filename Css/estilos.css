@@ -66,6 +66,8 @@
 .imagenes-tarjetas{
   height: 220px;
   width: 150px;
+  display: block;
+  margin: auto;
   text-align: center;
 }
 
@@ -190,6 +192,7 @@ section
 .imagenes-secction{
   height: 730px;
   width: 150px;
+  
   text-align: center;
 }
 
@@ -266,8 +269,10 @@ section
 
 /* Galeria */
 .imagenes-Galeria{
-  height: 300px;
-  width: 350px;
+  height: 215px;
+  width: 460px;
+  display: block;
+  margin: auto;
   text-align: center;
 }
 /*---------------------*/
